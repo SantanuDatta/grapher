@@ -1,0 +1,493 @@
+/* ========================
+   -CSS Code Structure
+    1. Global CSS
+    2. Typography
+    3. Header Section
+    4. Fun Fact Section
+    5. Portfolio Section
+    6. Exclusive Collection Section
+    7. Quote Section
+    8. Contact Section
+    9. Footer Section
+========================== */
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+/*1.0 Global Css Start*/
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+/*1.0 Global Css End*/
+
+/*3.0 Header Section Start*/
+
+
+.navbar{
+    margin: 0 auto;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #319883;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.navbar-light .navbar-nav .nav-link:focus{
+    color: #319883;
+}
+
+.navbar-light{
+    background: transparent !important;
+    transition: 500ms ease;
+}
+
+.navbar-light.scrolled{
+    background: #1ab797 !important;
+    color: #333 !important;
+}
+
+.navbar-brand{
+    width: 40%;
+}
+
+.navbar-expand-lg .navbar-nav{
+    width: 60%;
+}
+
+.navbar-collapse{
+    text-align: right;
+}
+
+
+.navbar-light .navbar-toggler{
+    color: #fff;
+    border-color: #fff;
+    padding: 5px 10px;
+}
+
+.navbar-light .navbar-toggler:hover{
+    background-color: #1ab797;
+    border-color: #1ab797;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.navbar-light .navbar-toggler:focus{
+    background-color: #1ab797;
+    border-color: #1ab797;
+}
+
+.fa-bars{
+    color: #fff;
+}
+
+.cover{
+    background: url(../img/header-bg.png) no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+    min-height: 40rem;
+    height: auto;
+    border-radius: 0;
+    width: 100%;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+.cover .row{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.cover .col-lg-12{
+    margin: 4rem auto 0px;
+}
+
+.cover h2{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.cover img{
+    display: block;
+    margin: 0 auto;
+}
+
+.cover p{
+    text-align: center;
+    margin: 20px auto 30px;
+}
+
+.cover .btn{
+    display: block;
+    margin: 0px auto;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.cover .btn:hover{
+    background-color: #319883;
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.cover .btn:focus{
+    background-color: #319883;
+    color: #fff;
+    border: 1px solid #319883;
+}
+
+.hire-me-btn{
+    width: 33%;
+}
+/*3.0 Header Section End*/
+
+
+/*4.0 Fun Fact Section Start*/
+
+.fun-fact{
+    padding: 40px 0px;
+}
+
+.fun-fact h2{
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.fun-fact img{
+    display: block;
+    margin: 10px auto;
+}
+/*4.0 Fun Fact Section End*/
+
+
+/*5.0 Portfolio Section Start*/
+
+.portfolio{
+    background-color: #f6f6f6;
+    padding: 40px 0px;
+}
+
+.portfolio h2{
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.portfolio .col-lg-12 img{
+    display: block;
+    margin: 10px auto;
+}
+
+.portfolio .col-lg-6{
+    padding: 0px;
+}
+
+.portfolio .col-lg-6 img{
+    width: 100%;
+}
+
+.divider{
+    padding: 0px 0px 40px;
+}
+
+.portfolio h4{
+    padding: 120px 0px 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.portfolio p{
+    padding: 10px 0px 0px;
+    text-align: center;
+}
+
+.specs{
+    width: 40% !important;
+    display: block;
+    margin: 0 auto;
+}
+
+.portfolio .btn{
+    display: block;
+    margin: 40px auto;
+    padding: 5px 30px;
+    font-size: 15px;
+    background-color: #319883;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.portfolio .btn:hover{
+    border-color: #319883;
+    background-color: #fff;
+    color: #319883;
+    transition: 0.3s all ease-in;
+    -webkit-transition: 0.3s all ease-in;
+    -moz-transition: 0.3s all ease-in;
+    -o-transition: 0.3s all ease-in;
+}
+/*5.0 Portfolio Section End*/
+
+/*6.0 Exclusive Collection Section Start*/
+
+.exclusive{
+    padding: 40px 0px;
+}
+
+.exclusive h2{
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.exclusive img{
+    display: block;
+    margin: 10px auto;
+}
+
+.exclusive p{
+    padding: 10px 0px;
+    text-align: center;
+}
+/*6.0 Exclusive Collection Section End*/
+
+
+/*7.0 Quote Section Start*/
+
+.quote{
+    padding: 40px 0px;
+    background: url(../img/quote-bg.png) no-repeat;
+    background-size: cover;
+    min-height: 20rem;
+}
+
+.quote h2{
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+.quote p{
+    padding: 10px 0px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+
+.quote img{
+    display: block;
+    margin: 20px auto;
+    width: 5%;
+}
+/*7.0 Quote Section End*/
+
+/*8.0 Contact Section Start*/
+
+.contact{
+    padding: 40px 0px;
+}
+
+.contact h2{
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+.contact img{
+    display: block;
+    margin: 20px auto;
+}
+
+.contact p{
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.form-control{
+    background-color: #eae9e9;
+}
+
+.form-group{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+.contact .btn{
+    display: block;
+    margin: 40px auto;
+    padding: 5px 20px;
+    font-weight: 700;
+    background-color: #319883;
+    border-color: #319883;
+    text-transform: uppercase;
+}
+
+.contact .btn:hover{
+    background-color: #fff;
+    color: #319883;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+}
+/*8.0 Contact Section End*/
+
+
+/*9.0 Footer Section Start*/
+
+footer{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1px solid #eeeeee;
+}
+
+footer p{
+    margin: 0 auto;
+    color: #d0d0cf;
+}
+/*9.0 Footer Section End*/
+
+
+/*Media Query For Mobile Device 0px-550px*/
+@media screen and (max-width: 550px) {
+    
+    .cover{
+        min-height: 20rem;
+    }
+
+    .cover h2{
+        font-size: 25px;
+    }
+    
+    .cover p{
+        font-size: 12px;
+    }
+    
+    .cover .btn{
+        float: none !important;
+        margin: 10px auto;
+        padding: 5px 15px;
+        width: 60%;
+    }
+    
+    .hire-me-btn {
+        width: 60%;
+    }
+    
+    .fun-fact h2{
+        font-size: 25px;
+    }
+    
+    .portfolio h2{
+        font-size: 25px;
+    }
+    
+    .portfolio h4{
+        padding: 60px 0px 10px;
+    }
+    
+    .portfolio p{
+        font-size: 10px;
+    }
+    
+    .portfolio .btn{
+        padding: 5px 20px;
+        font-size: 10px;
+    }
+    
+    .exclusive h2{
+        font-size: 25px;
+    }
+    
+    .exclusive p{
+        font-size: 10px;
+    }
+    
+    .quote img{
+        width: 15%;
+    }
+    
+    .contact h2{
+        font-size: 25px;
+    }
+    
+    .contact p{
+        font-size: 10px;
+    }
+    
+    .contact .btn{
+        margin: 20px auto;
+        padding: 5px 15px;
+    }
+    
+    footer p{
+        font-size: 10px;
+    }
+}
+
+/*Media Query For Mobile Device 500px-990px*/
+@media (min-width: 550px) and (max-width:992px){
+    .cover{
+        min-height: 20rem;
+    }
+  
+    .cover .btn{
+        float: none !important;
+        margin: 10px auto;
+        padding: 10px 25px;
+        width: 50%;
+    }
+    
+    .hire-me-btn {
+        width: 50%;
+        padding: 10px 25px !important;
+    }
+      
+    .portfolio h4{
+        padding: 60px 0px 10px;
+    }
+       
+    .portfolio .btn{
+        padding: 10px 25px;
+        font-size: 15px;
+    }
+    
+    .contact .btn{
+        margin: 20px auto;
+        padding: 10px 25px;
+    }
+    
+}
